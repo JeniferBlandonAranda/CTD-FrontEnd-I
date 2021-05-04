@@ -1,0 +1,78 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}
+
+.imgEnCabezado{
+    background-repeat: no-repeat; /*No se repita la imagen*/
+    background-size: 100%;
+    background-attachment: scroll;
+    width: auto;
+    height: 400px;
+    color:white;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.7)), url(../img/lemon-pie.png);
+    position: relative;
+}
+
+header p{
+    padding: 15px 5px;
+    font-size: 20px;
+}
+
+h1{
+    padding: 20px 4px;
+    font-size: 40px;
+}
+
+h2{
+    color: black;
+    width: auto;
+    height: -200px;
+    margin-right: 50px;
+    font-weight: 100px;
+}
+
+.titulo{
+    position: absolute;
+    bottom: 0px;
+}
+ol li {
+    margin-left: 40px;
+    padding-top: 15px;
+    font-size: 20px;
+}
+
+ul li {
+    margin-left: 40px;
+    padding-top: 15px;
+    font-size: 20px;
+}
+
+h3{
+    font-size: 30px;
+    margin-left: 30px;
+    padding-top: 15px;
+}
+
+.fas{
+    font-size: 30px;
+    margin-left: 10px;
+    padding-top: 30px;
+}
+
+footer{
+    padding: 1%;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.logo{
+    margin-left: 10px;
+    padding-top: 10px;
+}

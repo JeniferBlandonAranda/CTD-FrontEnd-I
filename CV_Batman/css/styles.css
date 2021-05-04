@@ -1,0 +1,45 @@
+header {
+    background-color: #dddddd; 
+    text-align:center;
+}
+
+.mayuscula{
+        text-transform: uppercase;
+}
+
+h1 {
+    background-color: #ccd1d3;
+    color: #0C5EDC;
+    font-size: 25px;
+    letter-spacing: 10px;
+    padding: 10px;
+    text-transform: uppercase;    /* Mayuscula */
+    word-spacing: 30px;
+}
+    
+h2 {
+    background-color: #D7DBDD;
+    color:#900C3F;
+    font-size: 18px;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    word-spacing: 15px;
+}
+
+span {
+    font-weight: bold; font-style: italic;
+}
+
+main {
+    margin-left: 20em; 
+    margin-right: 20em;
+}
+
+footer {
+    background-color: #1F497D; 
+    color:white;
+    font-size: 24px; 
+    text-align:center; 
+    text-transform: uppercase;  
+}
+

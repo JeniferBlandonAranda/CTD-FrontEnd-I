@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resgistrarme</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/registrarse.css">
+</head>
+
+<body>
+    <div class="banner">
+        <p>20% de descuento en todos los productos!</p>
+    </div>
+    <header>
+        <a href="../index.html"><img src="../img/logo.png" alt="logo_tienda"></a>
+        <h1>Nombre Tienda</h1>
+        <nav class="menu">
+            <ul>
+                <li><a href="./contacto.html">Contacto</a></li>
+                <li><a href="./registrarse.html">Registrarme</a></li>
+                <li><a href="./login.html">Ingresar</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <div class="container">
+                <h2>Registro</h2>
+                <form action="" method="POST">
+                    <div><input type="NombreApellido" name="NombreApellido" placeholder="Nombre y Apellido" required
+                            class="required"></div>
+                    <div><input type="email" name="email" placeholder="Correo Electrónico" required class="required">
+                    </div>
+                    <div> <input type="password" name="password" placeholder="Contraseña" required class="required">
+                    </div>
+                    <div><select name="Pais">
+                            <option value="1">Argentina</option>
+                            <option value="3">Brazil</option>
+                            <option value="2">Colombia</option>
+                        </select></div>
+                    <div><input class="resetear" type="reset" value="Resetear" name="button">
+                        <input class="registrar" type="submit" value="Registrar" name="button">
+                    </div>
+                    <div class="link">
+                        <p>¿Ya tienes una cuenta? <a href="login.html"> Ingresár</a>
+                        </p>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Todos los derechos reservados a FRONT END 1</p>
+    </footer>
+</body>
+
+</html>

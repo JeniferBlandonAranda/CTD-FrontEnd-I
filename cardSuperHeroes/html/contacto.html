@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/contacto.css">
+</head>
+
+<body>
+    <div class="banner">
+        <p>20% de descuento en todos los productos!</p>
+    </div>
+    <header>
+        <a href="../index.html"><img src="../img/logo.png" alt="logo_tienda"></a>
+        <h1>Nombre Tienda</h1>
+        <nav class="menu">
+            <ul>
+                <li><a href="./contacto.html">Contacto</a></li>
+                <li><a href="./registrarse.html">Registrarme</a></li>
+                <li><a href="./login.html">Ingresar</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <div class="container">
+                <h2>Contacto</h2>
+                <form action="" method="POST">
+                    <div><input type="nombreApellido" name="NombreApellido" placeholder="Nombre y Apellido" required
+                            class="required"></div>
+                    <div><input type="email" name="email" placeholder="Correo Electrónico" required class="required">
+                    </div>
+                    <div><textarea name="comentario" cols="30" rows="10"></textarea>
+                        <!--textarea son líneas de texto de varias
+                        líneas, con cols se indica el número de caracteres en horizontal del textarea y con rows el número
+                        de filas o líneas-->
+                    </div>
+                    <div><input class="resetear" type="reset" value="Resetear" name="button">
+                        <input class="entrar" type="submit" value="Entrar" name="button">
+                    </div>
+
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Todos los derechos reservados a FRONT END 1</p>
+    </footer>
+</body>
+
+</html>

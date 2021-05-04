@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nuevo Super Heroe</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/nuevoSuper.css">
+</head>
+
+<body>
+    <div class="banner">
+        <p>20% de descuento en todos los productos!</p>
+    </div>
+    <header>
+        <a href="../index.html"><img src="../img/logo.png" alt="logo_tienda"></a>
+        <h1>Nombre Tienda</h1>
+        <nav class="menu">
+            <ul>
+                <li><a href="./contacto.html">Contacto</a></li>
+                <li><a href="./registrarse.html">Registrarme</a></li>
+                <li><a href="./login.html">Ingresar</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <div>
+                <h2>Añadí tu super!</h2>
+                <p>Agregá tu personaje favorito completando las opciones.</p>
+            </div>
+            <form action="" method="POST">
+                <div class="contenedorFormulario" >
+                    <div class="columna">
+                        <!--Nombre-->
+                        <label for="nombre">*Nombre</label>
+                        <input class="nombre" type="text" name="nombre" required tabindex="1">
+                        <!--tabindex: Especifica el orden de tabulación de un elemento.-->
+
+                        <!--Fecha-->
+                        <label for="date">Fecha</label>
+                        <input class="nombre" type="date" name="date" value="dd/mm/aaaa" min="1800-01-01"
+                            max="2022-12-31" tabindex="3">
+
+                        <!--Descripción-->
+                        <textarea name="comentario" cols="30" rows="10" tabindex="5">Descripción</textarea>
+                    </div>
+
+                    <div class="columna">
+                        <!--Especie formulario -->
+                        <label for="especie">*Especie</label>
+                        <select class="nombre" name="especie" required tabindex="2">
+                            <!--tabindex: Especifica el orden de tabulación de un elemento.-->
+                            <option value="Dios">Especie</option>
+                            <option value="Dios">Dios</option>
+                            <option value="SemiDios">SemiDios</option>
+                            <option value="Humano">Humano</option>
+                            <option value="Mutante">Mutante</option>
+                        </select>
+
+                        <!--Agregar archivos-->
+                        <label>Agregar Foto</label>
+                        <input class="archivo" type="file" name="avatar" accept=".jpg" multiple tabindex="4">
+
+                        <!--Checkboxes-->
+                        <label class="poderes" for="poderes">Poderes</label>
+                        <label><input class="formulario" type="checkbox" name="poderes" value="Volar" tabindex="6">
+                            Volar</label>
+                        <label><input class="formulario" type="checkbox" name="poderes" value="SuperInteligencia"
+                                tabindex="7"> SuperInteligencia </label>
+                        <label><input class="formulario" type="checkbox" name="poderes" value="Vista de rayo láser"
+                                tabindex="8"> Vista de rayo láser</label>
+                        <label><input class="formulario" type="checkbox" name="poderes" value="Billetera gorda"
+                                tabindex="9"> Billetera gorda</label>
+                        <hr>
+                        <!--Linea divisora-->
+                        <!--Radio button-->
+                        <label for="tipo">Tipo de personaje</label>
+                        <label><input class="formulario" type="radio" name="tipo" value="Héroe / Heroina" tabindex="10">
+                            Héroe / Heroina</label>
+                            <label><input class="formulario" type="radio" name="tipo" value="Villano / Villana" tabindex="11">
+                                Villano / Villana</label>
+                    <input class="añadir" type="submit" value="Añadir " name="button" tabindex="12">
+                </div>
+        </section>
+    </main>
+    <footer>
+        <p>Todos los derechos reservados a FRONT END 1</p>
+    </footer>
+</body>
+
+</html>

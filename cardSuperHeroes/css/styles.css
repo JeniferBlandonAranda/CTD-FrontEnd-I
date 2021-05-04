@@ -1,0 +1,200 @@
+* {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-weight: 250;
+  margin: 0;
+  padding: 0;
+}
+
+main{
+  margin: 4%;
+  display: flex;
+  justify-content: center;
+}
+
+header {
+  background-color: #00669F;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); /*Adjunta una o más sombras a un elemento*/
+  padding-top: 5px;/*Establece el relleno superior de un elemento.*/
+  position: sticky;
+  top: 0; /* Para que quede pegado desde top: 0 */
+  height: 120px;
+  z-index: 999; /*Establece el orden de pila de un elemento posicionado*/
+}
+
+h1 {
+  bottom: 20px; /*Establece la posición de los elementos, desde la parte inferior de su elemento padre*/
+  color: #FFFFFF;
+  display: inline-block; /*Especifica cómo se debe mostrar un determinado elemento HTML.*/
+  font-size: 30px;
+  font-weight: lighter;
+  margin-left: 10px; /*Establece el margen izquierdo de un elemento.*/
+  position: relative;
+}
+
+section {
+  display: inline-block;
+  margin: 5px;
+}
+
+section img {
+  border-radius: 50%;
+  height: 120px;
+  left: 35%;
+  position: absolute;
+  top: 32%;
+  width: 120px;
+  z-index: 30;
+}
+
+.banner {
+  background-color: #1CD1B0; 
+  color:#000000;
+  font-size: 25px; /*Especifica el tamaño de fuente del texto.*/
+  padding-left: 20px; /*Establece el relleno izquierdo de un elemento.*/
+  padding-top: 2px; /*Establece el relleno superior de un elemento.*/
+}
+
+.menu {
+  background-color: #001D2D;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.30); /*Adjunta una o más sombras a un elemento*/
+  text-align: right; /*Especifica la alineación horizontal del texto.*/
+  padding: 14px;
+}
+
+.menu li {
+  display: inline; /*Especifica cómo se debe mostrar un determinado elemento HTML.*/
+  margin-right: 30px; /*Establece el margen derecho de un elemento.*/
+}
+
+.menu li a {
+  color: #ffffff;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.card {
+  border-radius: 25px 25px 0 0;
+  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.25);
+  margin: 60px;
+  position: relative;
+  text-align: center;
+  width: 360px;
+}
+
+.card:hover{
+  transform: scale(1.1);
+  box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+.topCard {
+  background-position-x: -200px;
+  background-position-y: center;
+  background-repeat: no-repeat;
+  background-size: 180%;
+  border-radius: 25px 25px 0 0;
+  height: 260px;
+}
+
+.cardMujerMaravilla {
+  background-image: url(../img/fondo-mujerMaravilla.png);
+}
+
+.cardBatman {
+  background-image: url(../img/fondo-batman.png);
+}
+
+.cardHarleyQuinn {
+  background-image: url(../img/fondo-HarleyQuinn.png);
+}
+
+.textocard {
+  height: 350px;
+  position: relative;
+}
+
+.textocard h2 {
+  color: #000000;
+  font-size: 30px;
+  padding-top: 70px;
+  text-transform: uppercase;
+}
+
+.textocard p {
+  color: #1b1b1b;
+  font-size: 16px;
+  margin-bottom: 80px;
+  padding: 25px;
+  text-align: left;
+}
+
+.boton{
+  background-color: #00669F;
+  border-radius: 10px;
+  bottom: 15px;
+  color: white;
+  font-size: 21px;
+  left: 80px;
+  padding: 20px 60px; 
+  position: absolute;
+  text-decoration: none;
+}
+
+.boton:hover{
+  background-color:#001D2D;
+  transition: ease 0.7s;
+}
+
+.corazon {
+  color: #cc2424;
+  font-size: 2em;
+  left: 5%;
+  position: absolute;
+  top: 2%;
+}
+
+.fa-plus{
+  background-color: #00669F;
+  border-radius: 100%;
+  bottom: 25%;
+  color: #fff;
+  font-size: 30px;
+  padding: 14px;
+  position: fixed;
+  right: 1%;
+}
+
+.fa-plus:hover{
+  background-color:#001D2D;
+  transition: ease 0.7s;
+}
+
+footer {
+  background: #00669f;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  color: #ffffff;
+  font-size: 1.3em;
+  padding: 1.5%;
+  text-align: center;
+}
+
+nav ul li a::before{
+  content:'';
+  background-color:#00669f ;
+  position:absolute;
+  bottom:-10px; 
+  width: 0%; 
+  height: 5px; 
+  transition: all 0.4s;
+}
+
+nav ul li a:hover::before{
+  width: 6%;
+} 
+
+
+
+
+
+
+

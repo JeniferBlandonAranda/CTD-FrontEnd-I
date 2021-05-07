@@ -34,3 +34,8 @@ Clase 12 - Transition, transform, animation y keyframes
 
 Clase 13 - Viewport y media queries.
 * [Responsive](https://jeniferblandonaranda.github.io/CTD-FrontEnd-I/Responsive/clase13/)
+
+## Flexbox
+
+Clase 14 - Flexbox
+* [Flexbox](https://jeniferblandonaranda.github.io/CTD-FrontEnd-I/Flexbox/)

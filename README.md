@@ -1,7 +1,7 @@
 
 # Curso Front End 1 Certified tech developer
 
-En este repositorio están almacenados los trabajos de la materia Front End de la carrera Certified tech developer.
+En este repositorio están almacenados proyectos, con mi ruta de aprendizaje de la materia Front End 1 de la carrera Certified tech developer.
 
 ## Lemon pie
 
